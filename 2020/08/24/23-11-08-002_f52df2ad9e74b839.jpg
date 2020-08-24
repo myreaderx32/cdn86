@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>はてなセリフ サービス終了のお知らせ</title>
+    <meta name="viewport" content="width=device-width">
+
+    <style type="text/css">
+    html,body {
+      margin: 0;
+    }
+    body {
+      font-family: serif;
+    }
+    p {
+      font-size: .9em;
+    }
+    h1,
+    a {
+      color: #1841CE;
+    }
+    h1 {
+      text-align: center;
+    }
+    a {
+      word-wrap: break-word;
+    }
+    .header {
+      padding: 10px;
+    }
+    .logo-hatelabo {
+      height: 32px;
+    }
+    .container {
+      max-width: 550px;
+      margin: 3em auto auto;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .logo-service-wrapper {
+      text-align: center;
+    }
+    .logo-service-wrapper .service-name {
+      font-size: 48px;
+      font-weight: 900;
+    }
+    .logo-service {
+      max-width: 100%;
+    }
+    @media (min-width: 320px) {
+      .logo-service {
+        max-width: 300px;
+      }
+    }
+    </style>
+  </head>
+  <body>
+
+    <header class="header">
+      <a href="https://hatelabo.jp/">
+        <img src="https://hatelabo.jp/images/hatenalogo.gif" alt="はてラボ" class="logo-hatelabo"/><img src="https://hatelabo.jp/images/hatelabo.gif" alt="はてラボ" class="logo-hatelabo"/>
+      </a>
+    </header>
+    <div class="container">
+      <section class="main">
+        <div class="logo-service-wrapper">
+          <span class="service-name">Hatena::Serif</span>
+        </div>
+        <h1>はてなセリフ サービス終了のお知らせ</h1>
+        <p>平素より「はてなセリフ」をご利用いただき、ありがとうございます。</p>
+        <p>アップロードした画像に文字を埋め込むことができる「セリフジェネレータ」の作成、セリフジェネレータで作成した画像を公開できるサービスとして提供していた「はてなセリフ」は、2018年3月1日をもちまして、サービスの提供を終了いたしました。</p>
+        <p>これまでご利用いただきましたユーザーの皆さまに深く感謝いたします。 誠にありがとうございました。</p>
+        <p>詳しくは下記をご覧ください。<br/>
+          <a href="http://labo.hatenastaff.com/entry/serif-closed">http://labo.hatenastaff.com/entry/serif-closed</a></p>
+        <p style="text-align: right;">株式会社はてな</p>
+      </section>
+    </div>
+  </body>
+</html>
